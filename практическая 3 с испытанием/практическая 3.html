@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="win-1251">
+    <meta name="keywords" content="вёрстка, HTML, CSS, обучение">
+    <meta name="description" content="Мой первый сайт">
+</head>
+<body>
+    <header>
+        <h1> Сайт ученицы группы БАС-23.161 Кифор А.Ю </h1>
+        <nav>
+           <h1> <strong> Анкета </strong> </h1>
+        </nav>
+    </header>
+        <main>
+		<form action="#" method="get">
+			<label> Ваше имя <input required placeholder="username" type="text" name="username">
+			</label><br>
+			<label for="user-field"> Фамилия<input id="user-field" type="text" name="lastname">
+			</label><br>
+			<label>
+			Введите пароль <input type="password" name="password"> <br>
+			</label>
+			<label>
+				<textarea cols=50 rows=5> Пару слов о себе </textarea>
+			</label><br>
+			<label for="question" >Вы студент?</label><br>
+			<input type="checkbox" checked id="question">
+			<p> Где ты учишься? </p>
+				<label>
+					<input type="radio" name="eduorg" value="Школа">
+					Школа
+					<input type="radio" name="eduorg" value="Колледж">
+					Колледж
+					<input type="radio" name="eduorg" value="Университет">
+					Университет 
+				</label><br>
+				<label>
+					Ваш год рождения?
+					<select name="Ваш год рождения?">
+						<option value="2002">2002</option>
+						<option value="2003">2003</option>
+						<option value="2004">2004</option>
+						<option value="2005">2005</option>
+						<option value="2006">2006</option>
+					</select>
+				</label><br>
+				<label>
+					Добавьте ваше фото
+					<input type="file" hidden enctype="profilepic/from-data">
+				</label><br>
+				<label>
+					Сегодняшняя дата 
+					<input type="date" disabled>
+				</label><br>
+				<label>
+				<label>
+					Дата окончания обучения 
+					<input type="date">
+				</label><br>
+					Ваш номер телефона  
+					<input type="tel">
+				</label><br>
+				<label>
+					Ваша почта  
+					<input type="email">
+				</label><br>
+				<label>
+					Ваша любимый сайт  
+					<input type="url">
+				</label><br>
+				<label> У вас есть права? <br> 
+					<input type="text" readonly placeholder="нет">
+				</label>
+				<label>
+				<input type="reset" value="очистить">
+				</label><br>
+				<label>
+				<input type="submit" value="отправить">
+				</label><br>
+		</form>
+        </main>
+        <footer>
+			<p> ©Кифор А.Ю. </p>
+        </footer>
+</body>
+</html>
